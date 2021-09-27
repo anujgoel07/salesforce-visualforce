@@ -1,0 +1,14 @@
+<!---Create a new Visualforce page:
+Name: DisplayImage
+Label: DisplayImage
+It must not display the standard Salesforce header
+It must use a Visualforce apex:image component to display this image: https://developer.salesforce.com/files/salesforce-developer-network-logo.png>
+
+
+
+<!--- Logic>
+
+<apex:page showHeader="false" sidebar="false" >
+    <apex:image url="https://developer.salesforce.com/files/salesforce-developer-network-logo.png"/>
+<!---  >
+</apex:page>
